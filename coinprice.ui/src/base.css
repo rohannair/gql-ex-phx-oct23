@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  font-family: 'Proxima Nova';
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.157rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.369rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.777rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.333rem;
+  margin-bottom: 10px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+small {
+  font-size: 0.75rem;
+}
