@@ -9,3 +9,18 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+Coinprice.Repo.insert!(%Coinprice.Accounts.User{
+  email: "r@rohannair.ca",
+  name: "Rohan Nair"
+})
+
+Coinprice.Repo.insert!(%Coinprice.Coins.Coin{
+  name: "BitCoin",
+  symbol: "BTC"
+})
+
+Coinprice.Repo.insert!(%Coinprice.Coins.Coin{
+  name: "Ether",
+  symbol: "ETH"
+})

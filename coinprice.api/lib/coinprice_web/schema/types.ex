@@ -18,4 +18,8 @@ defmodule CoinpriceWeb.Schema.Types do
     field :symbol, :string
     field :price, :string
   end
+
+  object :mutation do
+
+  end
 end
